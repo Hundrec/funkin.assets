@@ -21,7 +21,7 @@
     - '**/*.ogg'
 
 # Add Art tag to PR's changing image or animation files
-'pr: audio':
+'pr: art':
 - change-files:
   - any-glob-to-any-file:
     - preload/images/**
