@@ -5,7 +5,7 @@ import funkin.play.character.MultiSparrowCharacter;
 import funkin.play.GameOverSubState;
 import funkin.play.PlayState;
 import funkin.Preferences;
-
+ 
 class BoyfriendCharacter extends MultiSparrowCharacter {
 	function new() {
 		super('bf');
