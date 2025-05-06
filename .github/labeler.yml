@@ -10,19 +10,19 @@
 
 # Add Chart tag to PR's changing chart files
 'pr: chart':
-- change-files:
+- changed-files:
   - any-glob-to-any-file: 'preload/data/songs/**'
 
 # Add Audio tag to PR's changing audio files
 'pr: audio':
-- change-files:
+- changed-files:
   - any-glob-to-any-file:
     - '**/*.mp3'
     - '**/*.ogg'
 
 # Add Art tag to PR's changing image or animation files
 'pr: art':
-- change-files:
+- changed-files:
   - any-glob-to-any-file:
     - 'preload/images/**'
     - 'shared/images/**'
